@@ -87,7 +87,7 @@ def parse_contents(contents, filename):
     decoded = base64.b64decode(content_string)
     try:
         if 'xls' in filename:
-            df = pd.read_excel(io.BytesIO(decoded), sheet_name='Database BOQ')
+            df = pd.read_excel(io.BytesIO(decoded), sheet_name='Database BOQ')  # Only reads the sheet with "Database BOQ" as name
             return df
         else:
             return None
