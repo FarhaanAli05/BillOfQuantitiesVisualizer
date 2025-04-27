@@ -1,4 +1,4 @@
-# Overview
+# BOQ Visualizer
 
 The BOQ Visualizer is a Dash-based Python web application that allows users to upload Excel files containing BOQ (Bill of Quantities) data and visualize selected numerical values in an interactive bar chart format. Users can filter, search, sort, and drill into details of specific items across multiple datasets.
 
